@@ -1,4 +1,4 @@
-const { spawn } = require('child_process');
+import { spawn } from 'child_process';
 const WINDOWS_PLATFORM = 'win32'
 const SHELL = process.platform === WINDOWS_PLATFORM
 

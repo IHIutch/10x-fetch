@@ -1,3 +1,3 @@
-import "core-js/stable";
-import retrieve from "./api/managed-records";
+import "core-js/stable/index.js";
+import retrieve from "./api/managed-records.js";
 export { retrieve };

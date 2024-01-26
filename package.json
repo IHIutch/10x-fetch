@@ -2,11 +2,16 @@
   "name": "ad-hoc-frontend-homework",
   "version": "1.0.0",
   "description": "Homework using modern JS tooling (ES6/flow)",
+  "type": "module",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "os": ["darwin", "linux", "win32"],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
   "engines": {
     "yarn": ">=1.22.0",
     "node": ">=14.0.0"
@@ -32,7 +37,7 @@
   },
   "scripts": {
     "test": "node ./test/index.js",
-    "karma": "karma start karma.conf.js"
+    "karma": "karma start karma.conf.cjs"
   },
   "author": "Ad Hoc",
   "license": "GPL-2.0"

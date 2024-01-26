@@ -1,4 +1,4 @@
-import retrieve from "../../api/managed-records";
+import retrieve from "../../api/managed-records.js";
 
 describe("Records", function() {
 
